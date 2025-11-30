@@ -10,6 +10,9 @@
         "src": "/(.*)",
         "dest": "/server.js"
       }
-    ]
+    ],
+     "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "https://question-bank-client-mu.vercel.app" },     
+      ]
   }
   
